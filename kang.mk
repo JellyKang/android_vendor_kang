@@ -15,10 +15,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += vendor/kang/app/GooManager.apk:system/app/GooManager.apk
 
-ifeq ($(KANG_BOOTANIMATION),)
-ifeq ($(KANG_BOOTANIMATION_BLACK),)
-PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithBlack.zip:system/media/bootanimation.zip
-else
+# Black
+# PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithBlack.zip:system/media/bootanimation.zip
+
+# White
 PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithWhite.zip:system/media/bootanimation.zip
-endif
-endif
