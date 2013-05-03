@@ -15,13 +15,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += vendor/kang/app/GooManager.apk:system/app/GooManager.apk
 
-# Device naming
-PRODUCT_DEVICE := doubleshot
-PRODUCT_NAME := cm_doubleshot
-PRODUCT_BRAND := htc
-PRODUCT_MODEL := MyTouch 4G Slide
-PRODUCT_MANUFACTURER := HTC
-
 ifeq ($(KANG_BOOTANIMATION),)
 ifeq ($(KANG_BOOTANIMATION_BLACK),)
 PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithBlack.zip:system/media/bootanimation.zip
