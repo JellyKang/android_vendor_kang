@@ -13,7 +13,7 @@ PRODUCT_PACKAGES += \
     Wallpapers \
     ParanoidWallpapers
 
-PRODUCT_COPY_FILES += vendor/kang/app/GooManager.apk:system/app/GooManager.apk
+PRODUCT_COPY_FILES += vendor/kang/apps/GooManager.apk:system/app/GooManager.apk
 
 # Black
 # PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithBlack.zip:system/media/bootanimation.zip
