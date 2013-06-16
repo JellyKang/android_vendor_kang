@@ -9,7 +9,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     LiquidPapers \
     SwagPapers \
-    BamPapers \
     Wallpapers \
     ParanoidWallpapers \
     HALO
