@@ -11,7 +11,9 @@ PRODUCT_PACKAGES += \
     SwagPapers \
     Wallpapers \
     ParanoidWallpapers \
-    HALO
+    HALO \
+    Trebuchet \
+    Apollo
 
 PRODUCT_COPY_FILES += vendor/kang/apps/GooManager.apk:system/app/GooManager.apk
 
