@@ -1,6 +1,6 @@
 # JellyKang
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.kang.version=V1.8-Doubleshot-$(shell date +%y%m%d) \
+    ro.kang.version=V1.9-Doubleshot-$(shell date +%y%m%d) \
     ro.kang.date=$(shell date +%A-%B-%d,%Y) \
     ro.goo.developerid=xmcwildchild22 \
     ro.goo.board=doubleshot \
