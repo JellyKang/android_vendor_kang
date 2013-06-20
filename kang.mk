@@ -14,7 +14,9 @@ PRODUCT_PACKAGES += \
     ParanoidWallpapers \
     HALO \
     Trebuchet \
-    Apollo
+    Apollo \
+    FmRadio \
+    LockClock
 
 PRODUCT_COPY_FILES += vendor/kang/apps/GooManager.apk:system/app/GooManager.apk
 
