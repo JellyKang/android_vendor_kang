@@ -16,7 +16,10 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     Apollo \
     FmRadio \
-    LockClock
+    LockClock \
+    Email \
+    DSPManager \
+    CMFileManager
 
 PRODUCT_COPY_FILES += vendor/kang/apps/GooManager.apk:system/app/GooManager.apk
 
