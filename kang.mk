@@ -13,7 +13,6 @@ PRODUCT_PACKAGES += \
     Wallpapers \
     ParanoidWallpapers \
     HALO \
-    Trebuchet \
     Apollo \
     FmRadio \
     LockClock \
