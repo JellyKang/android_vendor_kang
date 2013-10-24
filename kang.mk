@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES +=  \
     vendor/kang/apps/GooManager.apk:system/app/GooManager.apk \
-    vendor/kang/apps/BootBox.apk:system/app/BootBox.apk
+    vendor/kang/apps/BootBox.apk:system/app/BootBox.apk \
+    vendor/kang/apps/Trebuchet.apk:system/app/Trebuchet.apk
 
 # Black
 # PRODUCT_COPY_FILES += vendor/kang/bootanimations/480x800_JellyKangHoloBlueWithBlack.zip:system/media/bootanimation.zip
